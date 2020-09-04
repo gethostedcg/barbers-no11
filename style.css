@@ -1,0 +1,65 @@
+
+#instagram-div{
+	position: absolute;
+  left: 35%;
+  width: 400px;
+  border: 2px black solid;
+
+}
+
+#banner{
+	width: 100%;
+}
+
+.slide {
+    overflow: auto;
+    max-width: 100%;
+  max-height: 600px; 
+}
+
+.caption{
+	font-family: freight-sans-pro, sans-serif;
+font-style: normal;
+font-weight: 300;
+}
+
+.userName{
+	font-family: freight-sans-pro, sans-serif;
+	text-decoration: none;
+	color: #1144ab;
+	transition: color .25s ease-in-out;
+   -moz-transition: color .25s ease-in-out;
+   -webkit-transition: color .25s ease-in-out;
+}
+.userName:hover{
+	color: #5f92fa;
+}
+#banner-image{
+	opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+#banner-image:hover{
+opacity: .5;
+}
+
+#more-background{
+	background-color: #c2c6cc;
+}
+
+#more{
+	font-size: 30px;
+	font-family: freight-sans-pro, sans-serif;
+	text-align: center;
+	text-decoration: none;
+	color: #1144ab;
+	transition: color .25s ease-in-out;
+   -moz-transition: color .25s ease-in-out;
+   -webkit-transition: color .25s ease-in-out;
+}
+
+#more:hover{
+	color: #5f92fa;
+}
